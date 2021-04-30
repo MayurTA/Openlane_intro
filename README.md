@@ -30,7 +30,7 @@ openlane
   docker run -it -v $(pwd):/openLANE_flow -v $PDK_ROOT:$PDK_ROOT -e PDK_ROOT=$PDK_ROOT -u $(id -u $USER):$(id -g $USER) openlane:rc6
   ```
   Now the docker is running and we can open Openlane. Openlane can be run in two modes,
-   - __Automated mode__ - In this mode, you just run one command and all the stages are automatically performed.
+   - __Non-interactive mode__ - In this mode, you just run one command and all the stages are automatically performed.
    - __Interactive mode__ - In this mode, you need to manually run each stage, hence gives you more freedom to analyse and change different environment variables for a better output.
   
   Let's look at automated mode. 
